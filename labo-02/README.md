@@ -43,7 +43,9 @@ De regel voor de slogan kostte mij het meeste tijd. Eerst werd de tekst niet kle
 ## 6. Je site
 
 - Welke drie waarden staan in je tokenblok, en waarom die?
+Ik heb gekozen voor de achtergrondkleur (#f5f5f5), tekstkleur (#333333) en hoofdkleur (#2c3e50). De achtergrondkleur zorgt voor een rustige uitstraling, de tekstkleur maakt alles goed leesbaar en de hoofdkleur gebruik ik voor de header en footer.
 - Wat verandert er in je site als je één token wijzigt?
+Als ik één token wijzig, veranderen alle elementen die dat token gebruiken automatisch mee. Zo kan ik bijvoorbeeld de achtergrondkleur op meerdere plaatsen tegelijk aanpassen.
 
 ## Thuis: R2.3 (met AI)
 
