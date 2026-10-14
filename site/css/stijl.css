@@ -1,0 +1,62 @@
+:root{
+    --achtergrond:#f5f5f5;
+    --tekst: #333333;
+    --hoofdkleur: #2c3e50;
+    --accent: #f1c40f;
+    --lettertpe: Arial, sans-serif;
+    --basismaat: 1rem;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #f1c40f;
+    text-decoration: underline;
+}
+main {
+    color: var(--tekst);
+    font-family: var(--lettertype);
+}
+footer {
+    background-color: var(--hoofdkleur);
+    color: white;
+    text-align: center;
+}
+footer a {
+    color: var(--accent);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+main a {
+    color: var(--hoofdkleur);
+}
+
+main a:hover,
+main a:focus {
+    color: #b45309;
+}
