@@ -2,7 +2,54 @@
 
 /* === tokens === */
 :root {
-
+    --tekstkleur: #282827;
+    --gele-onderstreping: #fccc00;
+    --knop: black;
+    --knop-bij-hover-focus: #333333;
+}
+body{
+    font-family: Arial, sans-serif;
+    color: var(--tekstkleur);
+    text-align: center;
+    width: 80vw;
+    max-width: 40rem;
+    margin: 12rem auto 0;
 }
 
-/* === your rules === */
+h2{
+    margin-top: 12rem;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.1;
+    color: var(--tekstkleur);
+    margin-bottom: 1.5rem;
+}
+h2 span{
+    border-bottom: 1rem solid var(--gele-onderstreping);
+    border-radius: 50%;
+}
+p{
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+a {
+    display: inline-block;
+    background-color: var(--knop);
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 1rem;
+    margin-top: 0;
+    font-size: 0.875rem;
+}
+a:hover,
+a:focus {
+    background-color: var(--knop-bij-hover-focus);
+}

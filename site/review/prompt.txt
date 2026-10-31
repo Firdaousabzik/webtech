@@ -1,0 +1,9 @@
+Help mij met thuisopdracht B3.1 van Web Technology.
+
+Ik wil mijn bestaande website verbeteren met:
+- Een gecentreerde leeskolom met max-width en margin: 0 auto.
+- Minstens drie kaartjes met afgeronde hoeken en schaduwen.
+- CSS-variabelen voor kleuren en afstanden.
+- Een reset.css die vóór stijl.css geladen wordt.
+
+Geef mij stap-voor-stap instructies en leg de CSS uit.

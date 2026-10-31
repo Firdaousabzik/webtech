@@ -2,7 +2,40 @@
 
 /* === tokens === */
 :root {
+    --oranjevierkant: #ec4b03;
+    --paarsecirkel: #b99ec1;
+    --geelvierkant: #f9b700;
+    --zwarte-randen: black;
 
 }
 
 /* === your rules === */
+main{
+    background-color: var(--oranjevierkant);
+    width: 90vh;
+    height: 90vh;
+    margin: 5vh auto;
+    border: 0.75rem solid black;
+}
+main div{
+    background-color: var(--paarsecirkel);
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    margin: 15%;
+    border: 0.75rem solid black;
+    overflow: hidden;
+}
+main h1{
+    background-color: var(--geelvierkant);
+    width: 90%;
+    height: 90%;
+    border: 0.75rem solid black;
+    margin: -7% 0 0 -7%;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40%;
+    font-size: 4rem;
+    font-weight: 900;
+}

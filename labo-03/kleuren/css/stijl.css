@@ -2,7 +2,52 @@
 
 /* === tokens === */
 :root {
-
+    --kleur-tomato: tomato;
+    --kleur-orangered: orangered;
+    --kleur-coral: coral;
+    --kleur-lightsalmon: lightsalmon;
+    --kleur-darkorange: darkorange;
 }
 
 /* === your rules === */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    height: 50vh;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tomato{
+    background-color: var(--kleur-tomato);
+}
+.orangered{
+    background-color: var(--kleur-orangered);
+}
+.coral{
+    background-color: var(--kleur-coral);
+}
+.lightsalmon{
+    background-color: var(--kleur-lightsalmon);
+}
+.darkorange{
+    background-color: var(--kleur-darkorange);
+}
+h2 {
+    letter-spacing: 0.25rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.codes{
+    font-size: 0.875rem;
+    font-weight:400;
+}
+.codes span{
+    margin-right: 1rem;
+}

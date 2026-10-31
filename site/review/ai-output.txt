@@ -1,0 +1,84 @@
+
+AI-output – B3.1 Web Technology
+Samengesteld overzicht van de AI-antwoorden uit het gesprek.
+
+1. CSS-tokens corrigeren
+Verander --lettertpe naar --lettertype.
+
+2. Body aanpassen
+body {
+    background-color: var(--achtergrond);
+    color: var(--tekst);
+    font-family: var(--lettertype);
+    font-size: var(--basismaat);
+    line-height: 1.6;
+}
+
+3. Header aanpassen
+header {
+    background-color: var(--hoofdkleur);
+    color: white;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+4. Navigatie aanpassen
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.9375rem;
+    font-weight: bold;
+}
+
+5. Leeskolom maken
+main {
+    color: var(--tekst);
+    font-family: var(--lettertype);
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+6. Main-element toevoegen aan index.html
+<main>
+    <h2>Welkom bij Web Technology!</h2>
+    <p>Dit is mijn eerste pagina</p>
+</main>
+
+7. Drie kaartjes toevoegen
+<section class="kaart">
+    <h3>Mijn hobby's</h3>
+    <p>Ontdek wat ik graag doe in mijn vrije tijd.</p>
+</section>
+
+<section class="kaart">
+    <h3>Boodschappenlijst</h3>
+    <p>Bekijk mijn boodschappenlijst.</p>
+</section>
+
+<section class="kaart">
+    <h3>Web Technology</h3>
+    <p>Ontdek wat ik leer over HTML en CSS.</p>
+</section>
+
+8. Kaartjes opmaken
+.kaart {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+}
+
+9. Afstanden tussen kaartjes
+Voeg aan :root toe:
+--ruimte: 1.5rem;
+
+Voeg aan de CSS toe:
+.kaart + .kaart {
+    margin-top: var(--ruimte);
+}
+
+10. Reset.css koppelen
+Voeg in de head van index.html, hobby.html en boodschappen.html vóór stijl.css toe:
+
+<link rel="stylesheet" href="css/reset.css">

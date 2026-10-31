@@ -2,7 +2,96 @@
 
 /* === tokens === */
 :root {
-
+    --banner: #c8b8ff;
+    --link:#5551ff;
+    --hero: #779cee;
+    --tekst: #000000;
+    --lettertype: Arial, sans-serif;
 }
 
 /* === your rules === */
+body{
+    font-family: var(--lettertype);
+    color: var(--tekst);
+}
+.banner{
+    background-color: var(--banner);
+    text-align: center;
+    padding: 1rem;
+}
+.banner a{
+    color: var(--link);
+    text-decoration: none;
+}
+.banner a:hover,
+.banner a:focus{
+    text-decoration: underline;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    list-style: none;
+}
+header{
+    padding: 2rem;
+}
+nav a{
+    color: var(--tekst);
+    text-decoration: none;
+}
+nav a:hover,
+nav a:focus{
+    text-decoration: underline;
+}
+
+main {
+    background-color: var(--hero);
+    min-height: 80vh;
+}
+
+main article,
+main .afbeelding {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+main article {
+    padding: 4rem 3rem;
+    max-width: 50%;
+}
+main h1{
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 1.1;
+    margin: 1rem 0;
+    max-width: 30rem;
+}
+.bovenkop{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+main article > p:not(.bovenkop){
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    max-width: 24rem;
+}
+.knop {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+.knop:hover,
+.knop:focus{
+    background-color: #333333;
+}
+.afbeelding img{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 4rem auto 0 0 5%;
+}
