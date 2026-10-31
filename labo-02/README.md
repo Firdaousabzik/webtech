@@ -51,8 +51,8 @@ Als ik één token wijzig, veranderen alle elementen die dat token gebruiken aut
 
 Prompt en onbewerkte output staan in `review/`. Minstens vijf bevindingen, elk met een verwijzing naar de sectie of het foutnummer:
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. !important: Bij header h1 gebruikt de AI !important. Dit is niet nodig en maakt de cascade moeilijker te beheren.
+2. Overspecifieke selectors: Bij header nav ul li a gebruikt de AI een lange selector. nav a is eenvoudiger en werkt ook.
+3. Letterlijke kleuren: Bij body en header h1 gebruikt de AI hex-kleuren in plaats van de CSS-tokens uit :root.
+4. Pixel-soep: De AI gebruikt 12px, 16px, 20px en 32px voor lettergroottes. Met rem zijn de groottes beter schaalbaar.
+5. Herhaling: De AI herhaalt font-family: Georgia, serif bij meerdere koppen. Dit kan korter door h1, h2, h3 samen te selecteren.

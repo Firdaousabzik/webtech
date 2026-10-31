@@ -1,0 +1,1 @@
+Schrijf een volledig CSS-stylesheet voor mijn bestaande HTML-pagina nabouw/index.html. Gebruik CSS-variabelen voor de vijf kleuren van het ontwerp. Zorg dat de opmaak zo goed mogelijk overeenkomt met het voorbeeld. Gebruik selectors, overerving en de cascade. Wijzig de HTML niet.
